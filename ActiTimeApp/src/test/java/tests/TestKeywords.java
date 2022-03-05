@@ -22,7 +22,7 @@ public class TestKeywords {
 	@BeforeTest
 	@Parameters("testData")
 	public void beforeTest(String data) {
-		System.out.println(data);
+	
 		System.out.println("before Test");
 	}
 	
